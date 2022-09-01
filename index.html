@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
+        <title>ENCRIPTADOR</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="contenedorPrincipal">
+
+            <div class="logo">
+                <img class="logoImagen" src="Imagenes/Logo.png" alt="Logo de Alura">
+                <h1 class="logoTexto">&#128270;  Encriptador de texto  &#128269;</h1>
+            </div>
+
+            <div class="panelIzquierdo">
+                <textarea id="inputTexto" class="input" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="panelDerecho">
+                <img id="imagenMunheco" src="Imagenes/Muñeco.png" alt="dibujo de una persona">
+                <h1 id="textoDerecho">Ningun mensaje fue encontrado</h1>
+                <textarea id="textoDerecho2" cols="30" rows="5">Ingrese el texto que desee encriptar o desencriptar</textarea>
+                <button id="copiar" type="button" onclick="copiar()" >¡Copiar!</button>
+            </div>
+
+            <div class="botones">
+                <p class="textoBotones">&#128712; Solo minúsculas y sin acentos</p>
+                <button type="button" class="encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+
+    </body>
+
+    <footer>
+
+        <p>Desarrollado por <strong>LUCIANO GASTÓN GONZÁLEZ</strong> </p>
+        <a href="https://www.linkedin.com/in/luciano-g-gonzalez/" target="_blank"><img src="Imagenes/linkedin.png" alt="logo de LinkedIn"></a> 
+
+    </footer>
+
+</html>
